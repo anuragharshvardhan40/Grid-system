@@ -1,0 +1,19 @@
+.wrapper > div{
+    background-color: grey;
+    padding: 1em;
+}
+
+.wrapper>div:nth-child(odd)
+{
+    background: hotpink;
+}
+
+.wrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: 100px;
+    grid-auto-rows: minmax(100px,auto);
+    
+}
